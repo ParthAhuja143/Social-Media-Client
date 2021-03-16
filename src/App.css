@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.ui.container {
+  width: 100% !important;
+}
+
+h1 {
+  font-family: "Satisfy" !important;
+  text-align: center;
+  border-radius: 10px !important;
+}
+
+.page_title {
+  display: block !important;
+  text-align: center !important;
+  font-size: 2rem !important;
+  margin-top: 10px !important;
+  font-weight: bolder !important;
+  font-family: "Satisfy", cursive !important;
+}
+
+.ui.grid {
+  padding-top: 100px !important;
+  position: relative !important;
+}
+
+.ui.grid > * {
+  padding: 0 !important ;
+  margin: 20px !important;
+  margin-top: 0px !important ;
+  margin-left: 14px !important;
+}
+
+.row img {
+  margin: 0px auto !important;
+}
+
+.ui.form {
+  flex: 1;
+  width: 100%;
+}
+
+label {
+  font-family: "Satisfy" !important;
+}
+
+.right.menu {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.left.menu {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ui.right.floated.image {
+  border-radius: 50%;
+}
+
+.loginToRegisterLink {
+  font-size: medium;
+  margin-left: 20px;
+  color: rgb(72, 27, 156);
+}
+
+.registerToLoginLink {
+  font-size: medium;
+  margin-left: 20px;
+  color: orangered;
+}
+
+.row {
+  padding: 30px !important;
+}

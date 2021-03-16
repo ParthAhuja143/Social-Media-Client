@@ -1,0 +1,20 @@
+.loginButton {
+  background-color: orangered !important;
+  color: white !important;
+}
+
+.loginButton:hover {
+  background-color: rgb(241, 64, 0) !important;
+}
+
+.ui.form .loginHeader {
+  padding: 10px !important;
+  background: linear-gradient(to right, orangered, yellow) !important;
+}
+
+.login {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}

@@ -1,0 +1,28 @@
+.register_Header {
+  padding: 10px !important;
+  background-image: linear-gradient(to right, rgb(0, 255, 255), rgb(64, 7, 99));
+}
+
+.register {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 100px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  flex: 1;
+}
+.previewImg_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.previewImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

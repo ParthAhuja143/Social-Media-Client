@@ -1,0 +1,43 @@
+.item {
+  color: rgb(105, 105, 105) !important;
+  font-weight: 900 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 0 0 !important;
+  transition: all ease-in-out 0.1s !important;
+}
+
+.item:hover {
+  color: rgb(13, 228, 217) !important;
+}
+
+.active:hover {
+  color: orangered !important;
+}
+
+.active {
+  color: orangered !important;
+  border-bottom-width: 100% !important;
+  border-bottom: orangered 3px solid !important;
+}
+
+.ui.secondary.menu {
+  padding: 0px !important;
+  border: 0px !important;
+  padding: 5px !important;
+  padding-bottom: 0px !important;
+  width: 100% !important;
+  z-index: 100;
+  top: 0 !important;
+  position: fixed !important;
+  transition: ease-in 0.25s all;
+}
+
+.menubar_transparent {
+  background-color: rgba(24, 26, 27, 0.753) !important;
+}
+
+.menubar_background {
+  background-color: rgb(24, 26, 27) !important;
+}
