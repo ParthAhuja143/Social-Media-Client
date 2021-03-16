@@ -52,5 +52,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy" : "https://ancient-retreat-04682.herokuapp.com/"
 }
